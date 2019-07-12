@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url("https://media.redadn.es/imagenes/star-wars-battlefront-ii-pc-playstation-4-xbox-one_309176.png");
+    background-size: cover;
+    background-position: center center;
+ }
+
+.pizza {
+    text-transform: uppercase;
+}
+
+.card {
+    width: 33.33%;
+    margin: 0 33.33%;
+    background-color: transparent
+}
+
+.card-img-top {
+    width: 33.33%;
+    margin-left: 16%
+}
+
+h5 {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border-bottom: 40px solid transparent;
+    border-left: 16px solid rgb(223, 0, 148);
+    border-right: 16px solid rgb(65, 0, 43);
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-img-top {
+    width: 300px
+}
+
+.box-input {
+    text-align: center;
+    color: white;
+    text-transform: uppercase
+}
+
+.p {
+    color: white
+}
+
+.box-input>input::placeholder {
+    color: rgb(255, 145, 0);
+    padding: 15px;
+    text-shadow: 50%;
+    text-decoration-style: double
+}
+
+.btn_login {
+    border-color: rgb(13, 104, 241);
+    border-style: ridge;
+    border-radius: 50px;
+    border-width: 7px;
+    box-shadow: -5px 10px 60px -10px white inset;
+    background: -webkit-linear-gradient(top, rgba(165, 255, 147, 1) 0%, rgba(32, 205, 0, 1) 52%, rgba(105, 255, 47, 1) 100%);
+    width: 30%;
+    height: 40px;
+    font-size: 18pt;
+    color: rgb(17, 17, 17);
+    transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -ms-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    outline-style: none !important;
+}
+
+.btn_login:hover {
+    background-color: white !important;
+    color: #000 !important;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+p{
+    color: antiquewhite
+}

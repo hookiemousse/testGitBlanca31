@@ -1,0 +1,21 @@
+h1{
+    font-size: 80px;
+    color: #a906be;
+}
+
+img{
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+.primeraImagen{
+    width: 350px;
+}
+
+.imagendepc{
+    width: 400px;
+}

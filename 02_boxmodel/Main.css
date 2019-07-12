@@ -1,0 +1,38 @@
+h1{
+    border: solid 1px blue;
+    display: inline-block;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin-right: 30px;
+}
+
+h2{
+    border: solid  1px coral;
+    display: inline-block;
+    margin: 0 30px 5px 10px;
+    background-color: #ff30ee;
+}
+
+p{
+    border: solid  1px #0a580e;
+    width: 50%;
+}
+
+a{
+    border: solid  1px #ff30ee;
+    width: 50%;
+}
+
+
+.seccion1{
+    border: solid  1px greenyellow;
+    width: 50%;
+    height: 300px;
+}
+
+.seccion2{
+    border: solid  1px blueviolet;
+    width: 50%;
+    height: 300px;
+}
